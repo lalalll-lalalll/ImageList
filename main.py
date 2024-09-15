@@ -89,10 +89,10 @@ def get_image_files(directory):
 
 # 主函数
 def main():
-    image_directory = 'F:/Python/3412png/testtest'  # 图像文件夹路径
-    rows = 2  # 行数
-    cols = 5  # 列数
-    order = 'left_to_right'  # 图像排列顺序：'left_to_right' 或 'top_to_bottom'
+    image_directory = 'path/to/your/images'  # 图像文件夹路径
+    rows = 3  # 行数
+    cols = 4  # 列数
+    order = 'top_to_bottom'  # 图像排列顺序：'left_to_right' 或 'top_to_bottom'
     
     # 获取排序后的图像文件列表
     image_files = get_image_files(image_directory)
